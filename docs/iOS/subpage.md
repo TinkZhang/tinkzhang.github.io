@@ -1,7 +1,7 @@
 ---
 layout: default
 title: iOS subpage
-parent: iOS Development
+parent: iOS
 ---
 
 iOS subpage
