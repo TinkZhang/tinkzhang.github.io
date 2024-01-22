@@ -15,6 +15,9 @@ collections:
   iOS:
     permalink: "/dev/iOS/"
     output: true
+  projects:
+    permalink: "/projects/"
+    output: true
 
 just_the_docs:
   collections:
@@ -22,3 +25,5 @@ just_the_docs:
       name: Algrithom
     iOS:
       name: iOS
+    projects:
+      name: 业余小项目
