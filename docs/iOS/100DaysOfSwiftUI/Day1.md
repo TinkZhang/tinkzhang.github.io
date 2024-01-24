@@ -3,7 +3,6 @@ layout: default
 title: Day 1
 parent: 100天学会SwiftUI
 grand_parent: iOS
-permalink: /iOS/day1
 ---
 
 # 第一天：Swift的变量，常量，字符串和数字
