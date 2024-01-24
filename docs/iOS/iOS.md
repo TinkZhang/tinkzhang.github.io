@@ -1,6 +1,6 @@
 ---
 layout: default
-title: iOS Development
+title: iOS
 has_children: true
 permalink: /iOS
 ---
