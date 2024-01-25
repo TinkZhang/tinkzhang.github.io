@@ -6,24 +6,3 @@ url: https://tinks.app
 
 aux_links:
   Template Repository: https://github.com/just-the-docs/just-the-docs-template
-
-collections:
-  # Define a collection named "tests", its documents reside in the "_tests" directory
-  algrithom:
-    permalink: "/dev/Algrithon/"
-    output: true
-  iOS:
-    permalink: "/dev/iOS/"
-    output: true
-  projects:
-    permalink: "/projects/"
-    output: true
-
-just_the_docs:
-  collections:
-    algrithom:
-      name: Algrithom
-    iOS:
-      name: iOS
-    projects:
-      name: 业余小项目
