@@ -5,7 +5,7 @@ parent: 100天学会SwiftUI
 grand_parent: iOS
 ---
 
-# 数组/字典/集合/枚举
+# 数组/字典/Set/枚举
 ## 数组
 ### 创建数组
 ```swift
@@ -35,17 +35,58 @@ print(albums.count)
 
 // 指定位置删除
 characters.remove(at: 2)
-
-
 // 清除
 characters.removeAll()
-
 // 包含判定
 bondMovies.contains("Frozen")
-
 // 排序
 cities.sorted()
-
 // 反转
 presidents.reversed()
 ```
+
+## 字典
+
+```swift
+let employee2 = [
+    "name": "Taylor Swift",
+    "job": "Singer", 
+    "location": "Nashville"
+]
+let olympics = [
+    2012: "London",
+    2016: "Rio de Janeiro",
+    2021: "Tokyo"
+]
+// 初始化一个空字典
+var olympics = [Int, String]()
+olympics[2008] = "Beijing"
+
+// 读取字典
+print(olympics[2008])
+print(olympics[2009, default: "No City"])
+
+// 修改字典
+olympics[2008] = "New Beijing"
+```
+
+## Set
+
+```swift
+let people = Set(["Denzel Washington", "Tom Cruise", "Nicolas Cage", "Samuel L Jackson"])
+
+var people = Set<String>()
+people.insert("Denzel Washington")
+people.insert("Tom Cruise")
+people.insert("Nicolas Cage")
+people.insert("Samuel L Jackson")
+```
+
+Set和Array的区别：
+1. Set元素是不重复的；
+2. Set元素是无序的，所以不能按照index获取元素，虽然Set有`removeFirst()`这样的函数，但是每次remove是随机的；
+3. Set的`contains()`函数是`O(1)`，而Array是`O(n)`，本质上因为Set是用Hash值索引，Array是内存中连续位置；
+4. Set添加元素是`insert()`，而Array是`append()`。
+
+## 枚举
+
