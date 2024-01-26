@@ -69,7 +69,7 @@ print(olympics[2009, default: "No City"])
 // 修改字典
 olympics[2008] = "New Beijing"
 ```
-[https://developer.apple.com/documentation/swift/dictionary]
+[Dictionary Documentation](https://developer.apple.com/documentation/swift/dictionary)
 
 ## Set
 
@@ -89,7 +89,7 @@ Set和Array的区别：
 3. Set的`contains()`函数是`O(1)`，而Array是`O(n)`，本质上因为Set是用Hash值索引，Array是内存中连续位置；
 4. Set添加元素是`insert()`，而Array是`append()`。
 
-[https://developer.apple.com/documentation/swift/set]
+[Set Documentation](https://developer.apple.com/documentation/swift/set)
 
 ## 枚举
 
@@ -111,4 +111,4 @@ var day = Weekday.monday
 day = .friday
 ```
 
-[https://docs.swift.org/swift-book/documentation/the-swift-programming-language/enumerations/]
+[Enum Documentation](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/enumerations/)
