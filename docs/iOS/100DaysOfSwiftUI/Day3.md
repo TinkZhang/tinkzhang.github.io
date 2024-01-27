@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Day 3:数组/字典/Set/枚举
+title: Day 3 - 数组/字典/Set/枚举
 parent: 100天学会SwiftUI
 grand_parent: iOS
 ---
