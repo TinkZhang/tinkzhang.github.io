@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Day 2: 布尔值，字符串连接
+title: Day 2:布尔值，字符串连接
 parent: 100天学会SwiftUI
 grand_parent: iOS
 ---
