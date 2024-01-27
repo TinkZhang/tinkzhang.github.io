@@ -1,11 +1,13 @@
 ---
 layout: default
-title: Day 4
+title: Day 4: 类型注释
 parent: 100天学会SwiftUI
 grand_parent: iOS
 ---
 
-# 类型注释
+# 第四天：类型注释
+
+<https://www.hackingwithswift.com/100/swiftui/4>
 
 ```swift
 var number = 1

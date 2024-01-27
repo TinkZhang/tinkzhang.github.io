@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Day 1
+title: Day 1: 变量，常量，字符串和数字
 parent: 100天学会SwiftUI
 grand_parent: iOS
 ---
 
-# 第一天：Swift的变量，常量，字符串和数字
+# 第一天：变量，常量，字符串和数字
 
-Link: https://www.hackingwithswift.com/100/swiftui/1
+<https://www.hackingwithswift.com/100/swiftui/1>
 
 ## 变量
 

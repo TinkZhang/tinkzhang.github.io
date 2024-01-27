@@ -1,11 +1,14 @@
 ---
 layout: default
-title: Day 3
+title: Day 3: 数组/字典/Set/枚举
 parent: 100天学会SwiftUI
 grand_parent: iOS
 ---
 
-# 数组/字典/Set/枚举
+# 第三天： 数组/字典/Set/枚举
+
+<https://www.hackingwithswift.com/100/swiftui/3>
+
 ## 数组
 ### 创建数组
 ```swift

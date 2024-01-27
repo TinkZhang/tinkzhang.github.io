@@ -1,11 +1,13 @@
 ---
 layout: default
-title: Day 2
+title: Day 2: 布尔值，字符串连接
 parent: 100天学会SwiftUI
 grand_parent: iOS
 ---
 
 # 第二天：布尔值，字符串连接
+
+<https://www.hackingwithswift.com/100/swiftui/2>
 
 ## 布尔值
 
