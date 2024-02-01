@@ -6,6 +6,7 @@ grand_parent: iOS
 ---
 
 # 第九天：闭包
+<https://www.hackingwithswift.com/100/swiftui/9>
 
 ```swift
 let sayHello = { (name: String) -> String in
