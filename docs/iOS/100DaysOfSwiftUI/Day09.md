@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Day 9 - 闭包
+title: Day 09 - 闭包
 parent: 100天学会SwiftUI
 grand_parent: iOS
 ---

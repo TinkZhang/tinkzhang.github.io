@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Day 4 - 类型注释
+title: Day 04 - 类型注释
 parent: 100天学会SwiftUI
 grand_parent: iOS
 ---

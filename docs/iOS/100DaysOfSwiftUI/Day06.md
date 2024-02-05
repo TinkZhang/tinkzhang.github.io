@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Day 6 - 循环
+title: Day 06 - 循环
 parent: 100天学会SwiftUI
 grand_parent: iOS
 ---

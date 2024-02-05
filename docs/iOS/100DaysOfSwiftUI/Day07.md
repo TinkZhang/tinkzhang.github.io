@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Day 7 - 函数定义和参数名
+title: Day 07 - 函数定义和参数名
 parent: 100天学会SwiftUI
 grand_parent: iOS
 ---

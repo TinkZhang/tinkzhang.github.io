@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Day 10 - 结构体
+title: Day 10 - 结构体1
 parent: 100天学会SwiftUI
 grand_parent: iOS
 ---
 
-# 第十天：结构体
+# 第十天：结构体1
 
 <https://www.hackingwithswift.com/100/swiftui/10>
 

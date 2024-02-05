@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Day 1 - 变量，常量，字符串和数字
+title: Day 01 - 变量，常量，字符串和数字
 parent: 100天学会SwiftUI
 grand_parent: iOS
 ---
