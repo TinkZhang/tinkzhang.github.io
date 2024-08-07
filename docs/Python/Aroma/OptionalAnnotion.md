@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Optional[int] vs int | None
-parent: Aroma
+parent: Python Aroma
 grand_parent: Python
 ---
 

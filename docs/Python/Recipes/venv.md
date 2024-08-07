@@ -1,7 +1,7 @@
 ---
 layout: default
 title: venv
-parent: Recipes
+parent: Python Recipes
 grand_parent: Python
 ---
 
