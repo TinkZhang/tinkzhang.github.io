@@ -1,7 +1,8 @@
 ---
 layout: default
 title: venv
-parent: Python
+parent: Recipes
+grand_parent: Python
 ---
 
 # Python项目虚拟环境`venv`
