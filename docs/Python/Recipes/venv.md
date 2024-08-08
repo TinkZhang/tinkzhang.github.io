@@ -19,7 +19,7 @@ Python有很多功能强大的package，避免了我们重复造轮子。经常�
 创建`.venv`文件夹
 ```bash
 cd <project dir>
-$ python3 -m venv .
+$ python3 -m venv .venv
 ```
 
 ### 激活虚拟环境 
