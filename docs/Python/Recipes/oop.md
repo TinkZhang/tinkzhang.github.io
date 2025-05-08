@@ -183,10 +183,23 @@ class MyClass:
 
 ### __str__ 和 __repr__
 
+这两个方法的返回值都是str
 
-## 
+__str__: 类似于Java中的toString()方法，一般给用户看
+
+__repr__: 是representation，literally representation，一般给程序员看，比如显示所有的属性
 
 ## Inheritance
+
+Python的继承没有extend的语法，是在类名后面加括号。Python可以继承多个父类。Python也没有override关键字，是通过同签名的方法，自动判断重写。
+
+```python
+class Animal:
+		pass
+
+class Cat(Animal):
+		pass
+```
 
 ## Abstract Class
 
@@ -203,4 +216,44 @@ class Animal(ABC):
 
 ## Protocal
 
+Protocol是一个特殊的类，定义一个Protocol需要继承Protocol这个类。一个类“实现”这个Protocol是完全隐式的，没有implement关键字，也不需要继承，只需要默默地实现Protocol中的方法和属性。
+
+```python
+from typing import Protocol
+
+class Printable(Protocol):
+		pages: int
+		
+		def print(self):
+				pass
+				
+		def recycle(self):
+				pass
+				
+class Book:
+		pages: int
+		
+		def __init__(self, pages:str):
+				self.pages = pages
+		
+		def print(self):
+				print("Printing book:", self.title)
+				
+		def recycle(self):
+				print("Recycling book:", self.title)
+
+book: Pritable = Book('Python')
+```
+
 ## Data Class
+
+数据类，帮我们实现了init，eq，repr这些方法。
+
+```python
+from dataclasses import dataclass
+
+@dataclass
+class Fruit:
+		name: str
+		colaries: int
+```
