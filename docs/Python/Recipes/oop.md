@@ -189,16 +189,32 @@ __str__: 类似于Java中的toString()方法，一般给用户看
 
 __repr__: 是representation，literally representation，一般给程序员看，比如显示所有的属性
 
-## Inheritance
+### 其它Magic Method
 
-Python的继承没有extend的语法，是在类名后面加括号。Python可以继承多个父类。Python也没有override关键字，是通过同签名的方法，自动判断重写。
+其它的Magic Method包括算术相关的、上下文管理相关、容器相关和属性访问等。完整的列表见 [Python Special Methods](https://docs.python.org/3/reference/datamodel.html#special-method-names)
 
 ```python
-class Animal:
-		pass
+__add__(self, other)     # ➕的运算
+__lt__(self, other)      # < 的运算
+__getattr__(self, name)  # 访问不存在属性时调用
+__len__(self)            # len(obj)
+__enter__(self)          # 在 with 块开始时调用
+__bool__(self)           # 返回布尔值（用于 if obj:）
+```
 
-class Cat(Animal):
-		pass
+## Inheritance
+
+Python的继承语法比较特别。Python可以继承多个父类。方法的重写是自动识别的，没有override关键字，直接定义同名方法即可。
+
+```python
+class Pet:
+    pass
+
+class Animal:
+	pass
+
+class Cat(Animal, Pet):
+	pass
 ```
 
 ## Abstract Class
